@@ -49,3 +49,21 @@ describe("Lets see if they have toilet paper today", () => {
         // finish this test to see if the store now has toilet paper 
     })
 })
+
+// test to see what happens when your contact adds the secret as the last item in the array
+
+describe("Lets see if they have toilet paper today", () => {
+    test("decode the secret list to see if the grocery store has toilet paper", () => {
+        var secretList = [
+            'twilight books',
+            'coffee',
+            'rice',
+            'paper towels',
+            'we have toilet paper',
+            'milk',
+            'cheese',
+        ]
+        // finish this test to see if the store now has toilet paper 
+    })
+})
+
